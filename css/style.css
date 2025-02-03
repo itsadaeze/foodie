@@ -1,0 +1,495 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Inter", serif; 
+  
+}
+
+body{
+    width:100%;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 1.5rem 3rem;
+    width: 85rem;
+    margin: auto;
+
+}
+
+.logo{
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-size: 1.5rem; 
+}
+
+span{
+    color: #ff0000;
+}
+
+.header-navbar{
+    display: flex;
+    gap: 3.5rem;
+    font-weight: 500;
+    padding-top: 0.4rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+   font-family: 500;
+}
+
+.header-social{
+    display: flex;
+    gap: 2.5rem;
+    padding-top: 0.4rem;
+} 
+
+.line  {
+    border-bottom: 1px solid rgb(234, 233, 233);
+}
+
+/* HERO SECTION */
+.hero-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+    
+}
+.herocontent-conatiner{
+    display: flex;
+    position: relative;
+    margin-top: 1.8rem;
+    
+}
+.herocontent-section1{
+    background-color: #E7FAFE;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 0px 40px;
+}
+.scroll-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 9rem;
+    border-radius: 30px;
+    gap: 10px;
+    padding:  10px 5px 10px 10px;
+    margin-top: 1.8rem;
+}
+.scroll-section p{
+    font-size: 14px;
+ font-weight: 600;
+ color: #000000;
+ line-height: 16px;
+}
+
+
+.main-hero-title{
+    font-size: 64px;
+ font-weight: 600;
+ color: #000000;
+ line-height: 77px;
+ margin-top: 1.8rem;
+ width: 70%;
+}
+.main-hero-para{
+    font-size: 16px;
+ font-weight: 400;
+ color: #000000;
+ opacity: 60%;
+ line-height: 28px;
+ width: 70%;
+ margin-top: 1.8rem;
+}
+.short-icons-container{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.8rem;
+}
+.short-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#c1bebe80;
+    width: 8.6rem;
+    height: 40px;
+    border-radius: 30px;
+}
+.avartar-button-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem
+}
+
+.avartar-hero-section{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.hero-recipe-button {
+    width: 11.25rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+     font-size: 1rem;
+     padding:auto;
+     color: #ffffff;
+     background-color: #000000;
+     border-radius: 16px;
+     margin-right: 2rem;
+     cursor: pointer;
+     
+  }
+
+  .hero-recipe-button:hover{
+ transition: 0.2s;
+ background-color: #000000cb;
+}
+
+.hand-image{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    transform: translateX(-50%);
+}
+/* Recipe session */
+
+.section-3{
+    width: 80rem;
+   margin: 9rem auto;
+}
+.section-3-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    padding:0px 15px ;
+    margin-bottom: 4rem;
+}
+.section-3-heading  h1{
+ font-size: 48px;
+ font-weight: 600;
+ color: #000000;
+}
+.section-3-heading  p{
+    font-size: 16px;
+ font-weight: 400;
+ color:#000000;
+ opacity: 60%;
+ 
+  }
+.recipe{
+    display: flex;
+    justify-content: center;
+    gap: 1.875rem;
+    margin-bottom: 4rem;
+}
+
+.recipe-name{
+    width: 18.13rem;
+    line-height: 1.63rem;
+    font-size: 1.23rem;
+    font-weight: 600;
+    margin-top: 0.625rem;
+}
+
+.marge{
+  display: flex;
+  gap: 1.875rem;
+  color: #00000099;
+  margin-top: 1.25rem;
+}
+
+.time{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 3px;
+}
+
+/*CATEGORIES*/
+
+.categories-container{
+   width: 80rem;
+   margin: 9rem auto;
+       
+}
+.categories-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.category-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category{
+    font-size: 48px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.category-button{
+    background-color: #E7FAFE;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 16px;
+}
+
+/* SIMPLE RECIPE*/
+.simple-recipe{
+    width: 80rem;
+    margin: 9rem auto;
+}
+
+.simple-recipe-text h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #000000;
+     line-height: 58px;
+     text-align: center;
+}
+
+.simple-recipe-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#000000;
+    opacity: 60%;
+    line-height: 28px;
+    margin: 20px auto;
+    width: 45%;
+    text-align: center;
+}
+
+.simplerecipe-card{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+   
+}
+
+.simple-recipe-image{
+    width: 23rem;
+}
+.simplerecipe-name{
+    width: 18.13rem;
+    line-height: 1.63rem;
+    font-size: 1.23rem;
+    font-weight: 600;
+    margin-top: 0.625rem;
+}
+
+.simplemarge{
+  display: flex;
+  gap: 1.875rem;
+  color: #00000099;
+  margin-top: 1.25rem;
+}
+
+.simpletime{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 3px;
+}
+
+/* LEARN MORE*/
+.learn-more{
+    width: 80rem;
+    margin: 9rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learnmore-text h1{
+    font-size: 48px;
+ font-weight: 600;
+ color: #000000;
+  line-height: 58px;
+}
+
+.learnmore-text p{
+    font-size: 16px;
+ font-weight: 400;
+ color:#000000;
+ opacity: 60%;
+ line-height: 28px;
+ margin-top: 20px;
+ 
+}
+.learnmore-text button{
+    width: 11.25rem;
+    height: 4rem;
+    border: none;
+     font-size: 1rem;
+     padding:auto;
+     color: #ffffff;
+     background-color: #000000;
+     border-radius: 16px;
+     margin: 2.8rem 0 0 0;
+     cursor: pointer;
+  }
+
+  .learnmore-text button:hover{
+ transition: 0.2s;
+ background-color: #000000cb;
+}
+
+/* SUBSCRIBE SECTION*/
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto ;
+    background-image: url(/assets/images/subscribe-bg.svg);
+    background-repeat: no-repeat;
+    margin:6.3rem auto;
+    width: 80rem;
+    height: 27.6rem;
+    background-size: cover;
+}
+ 
+
+
+.section-2 h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #000000;
+    padding: 30px 0 0 0;
+    margin-top: -30px;
+    /* line-height: 38px; */
+    
+}
+
+.section-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    opacity: 60%;
+    margin-top: 20px;
+    width: 40%;
+    line-height: 25px;
+    text-align: center;
+
+    
+}
+
+.subscribeinput-container {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    max-width: 400px;
+  }
+  
+  .subscribeinput-container input[type="text"] {
+    width: 100%;
+    padding: 26px 18px; 
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 14px;
+    color: #6e6e6e 40%;
+    
+    box-sizing: border-box;
+  }
+  
+  .subscribe-button {
+    position: absolute;
+    right: 10px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 22px; 
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #333;
+  }
+  
+/* FOOTER SECTIION */
+
+footer{
+    width: 80rem;
+    margin: 0 auto;
+}
+.section-4{ 
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     padding-bottom:40px ;
+     border-bottom : 1px solid #0000001A;    
+}
+
+.text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00000099;
+    margin-top: 20px;
+}
+
+.footer-navbar{
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    padding-top: 0.4rem;
+}
+
+.p-socials{
+    display: flex;
+    justify-content:flex-end;
+    align-items: baseline;
+    margin: 2.5rem 0;   
+    gap: 340px; 
+}
+
+ .flowbase{
+   font-size: 18px;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 37px;
+} 
+
+
+  @media(max-width:85em){
+      body{
+        width: 80rem;
+        margin: auto;
+       
+      }
+} 

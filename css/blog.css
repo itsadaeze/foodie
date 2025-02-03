@@ -1,0 +1,364 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Inter", serif; 
+  
+}
+
+body{
+    width:100%;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 1.5rem 3rem;
+    width: 85rem;
+    margin: auto;
+   
+    
+}
+
+.logo{
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-size: 1.5rem; 
+}
+
+span{
+    color: #ff0000;
+}
+
+.header-navbar{
+    display: flex;
+    gap: 3.5rem;
+    font-weight: 500;
+    padding-top: 0.4rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+   font-family: 500;
+}
+
+.header-social{
+    display: flex;
+    gap: 2.5rem;
+    padding-top: 0.4rem;
+} 
+
+.line  {
+    border-bottom: 1px solid rgb(234, 233, 233);
+}
+
+/*BLOG CONTENT*/
+.blogcontent-container{
+    width: 80rem;
+    margin: 4rem auto;
+}
+
+.blogcontent-header h1{
+ font-weight: 600;
+ font-family: inter;
+ font-size: 64px;
+ line-height: 76px;
+}
+
+.blogcontent-subhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 1.5rem;
+}
+.blogcontent-subhead1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+.blogcontent-subhead1 img{
+    width: 40px;
+}
+.blogcontent-subhead1 p{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.blogcontent-subhead2 {
+    border-left: 1px solid gainsboro;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    opacity: 60%;
+    padding: 10px;
+}
+.blogcontent-header-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 60%;
+    line-height: 28px;
+    text-align: center;
+    width: 80%;
+    margin:2rem auto;
+
+}
+
+.blogcontent-description{
+    width: 60rem;
+   margin:  auto;
+  
+}
+
+.blogcontent-descriptionss{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 3.5rem;
+}
+.blog-content-card{
+    margin-bottom: 5rem;
+}
+
+.blog-content-heading{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #000000;
+    font-family: inter;
+}
+.blog-content-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+    opacity: 60%;
+    font-family: inter;
+    width: 95%;
+    margin-top: 1.8rem;
+}
+
+.blog-image-2{
+    margin-top: 3rem;
+}
+
+.italic{
+   width: 90%;
+    background-color:rgb(246, 246, 244);
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+   padding: 20px 25px;
+   margin: 2rem 0 3rem 0; 
+}
+
+.italic-text{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #000000;
+    opacity: 60%;
+    font-family: inter;
+    font-style: italic;
+   
+}
+.blog-social-container{
+    width: 100%;
+}
+.blog-social-text{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #000000;
+    font-family: inter;
+
+}
+.blog-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+/* Recipe session */
+
+.section-3{
+    width: 80rem;
+   margin: 9rem auto;
+}
+
+.recipe-headline{
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.recipe{
+    display: flex;
+    justify-content: center;
+    gap: 1.875rem;
+}
+
+.recipe-name{
+    width: 18.13rem;
+    line-height: 1.63rem;
+    font-size: 1.23rem;
+    font-weight: 600;
+    margin-top: 0.625rem;
+}
+
+.marge{
+  display: flex;
+  gap: 1.875rem;
+  color: #00000099;
+  margin-top: 1.25rem;
+}
+
+.time{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 3px;
+}
+
+/* SUBSCRIBE SECTION*/
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto ;
+    background-image: url(/assets/images/subscribe-bg.svg);
+    background-repeat: no-repeat;
+    margin:6.3rem auto;
+    width: 80rem;
+    height: 27.6rem;
+    background-size: cover;
+}
+ 
+
+
+.section-2 h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #000000;
+    padding: 30px 0 0 0;
+    margin-top: -30px;
+    /* line-height: 38px; */
+    
+}
+
+.section-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    opacity: 60%;
+    margin-top: 20px;
+    width: 40%;
+    line-height: 25px;
+    text-align: center;
+
+    
+}
+
+.subscribeinput-container {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    max-width: 400px;
+  }
+  
+  .subscribeinput-container input[type="text"] {
+    width: 100%;
+    padding: 26px 18px; 
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 14px;
+    color: #6e6e6e 40%;
+    
+    box-sizing: border-box;
+  }
+  
+  .subscribe-button {
+    position: absolute;
+    right: 10px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 22px; 
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #333;
+  }
+  
+/* FOOTER SECTIION */
+
+footer{
+    width: 80rem;
+    margin: 0 auto;
+}
+.section-4{ 
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     padding-bottom:40px ;
+     border-bottom : 1px solid #0000001A;    
+}
+
+.text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00000099;
+    margin-top: 20px;
+}
+
+.footer-navbar{
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    padding-top: 0.4rem;
+}
+
+.p-socials{
+    display: flex;
+    justify-content:flex-end;
+    align-items: baseline;
+    margin: 2.5rem 0;   
+    gap: 340px; 
+}
+
+ .flowbase{
+   font-size: 18px;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 37px;
+} 
+
+
+  @media(max-width:85em){
+      body{
+        width: 80rem;
+        margin: auto;
+       
+      }
+} 
