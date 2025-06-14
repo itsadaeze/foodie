@@ -370,7 +370,7 @@ a{
     justify-content: center;
     align-items: center;
     margin: auto ;
-    background-image: url(/assets/images/subscribe-bg.svg);
+    background-image: url("/images/subscribe-bg.svg");
     background-repeat: no-repeat;
     margin:6.3rem auto;
     width: 80rem;

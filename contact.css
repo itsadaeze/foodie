@@ -65,12 +65,16 @@ a{
     font-size: 4rem;
     font-weight: 600;
     padding: 2.8rem 0;
+    margin-top: 20px;
 }
 
 .chef-form{
     display: flex;
-    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto ;
     gap: 2.5rem;
+    margin-top: 10px;
 
 } 
 
@@ -146,7 +150,7 @@ input:hover, select:hover, textarea:hover{
     justify-content: center;
     align-items: center;
     margin: auto ;
-    background-image: url(/assets/images/subscribe-bg.svg);
+    background-image: url("/images/subscribe-bg.svg");
     background-repeat: no-repeat;
     margin:6.3rem auto;
     width: 80rem;
